@@ -81,8 +81,8 @@ export default function Hero() {
         <div className="relative w-full h-full z-10 pointer-events-none">
           <img
             ref={carRef}
-            src="/car.png" 
-            alt="car"
+             src="/car-scroll-animation/car.png" 
+             alt="car"
             className="absolute left-0 h-[250px] w-[450px] top-1/2 -translate-y-1/2 object-contain drop-shadow-2xl" 
           />
         </div>
